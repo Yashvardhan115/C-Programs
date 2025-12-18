@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    char strname[100];
+    fgets(strname,100,stdin); 
+    printf("You Entered Name: %s",strname);
+    int len =strlen(strname);
+    printf("Length of String=%d",len);
+
+    return 0;
+}
